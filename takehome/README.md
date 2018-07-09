@@ -16,11 +16,11 @@ Assumes you have downloaded [Anaconda Distribution](https://www.anaconda.com/dow
 
 ## Folders
 
-* `pics` - contains images using in the Jupyter Notebook
+* `pics` - contains images originally generated for the analysis
 
 # Instructions
 
-The main notebook, `TJW-C762132.ipynb`, assumes that you have created an api key for google maps.  
+The main notebook, `NYC Green Taxis.ipynb`, assumes that you have created an api key for google maps.  
 
 You can follow these [instructions](https://console.developers.google.com/flows/enableapi?apiid=maps_backend,geocoding_backend,directions_backend,distance_matrix_backend,elevation_backend&keyType=CLIENT_SIDE&reusekey=true).
 The notebook assumes that the api key is available via the environment variable `GOOGLE_API_KEY`.
@@ -54,4 +54,4 @@ Once the extensions habe been enabled, run
 
 `jupyter notebook`
 
-The notebook `co-dsc.ipynb` contains all work.  There is an html version available, just open with any modern browser.
+The notebook `NYC Green Taxis.ipynb` contains all work.  There is an html version available, just open with any modern browser.
