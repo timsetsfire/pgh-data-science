@@ -27,13 +27,13 @@ The notebook assumes that the api key is available via the environment variable 
 
 From this directory run
 
-`conda env create -f environment.yml`
+`conda env --name=dsc create -f environment.yml`
 
 Once this is complete you will see the following instructions
 ```
 #
 # To activate this environment, use:
-# > activate co-dsc
+# > activate dsc
 #
 # To deactivate an active environment, use:
 # > deactivate
